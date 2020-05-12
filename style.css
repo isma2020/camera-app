@@ -1,0 +1,45 @@
+html, body { 
+    marge: 0; 
+    rembourrage: 0; 
+    hauteur: 100%; 
+    largeur: 100%: 
+}
+
+
+#caméra, #caméra-vue, #caméra-capteur, #caméra-sortie { 
+    position: fixe; 
+    hauteur: 100%; 
+    largeur: 100%: 
+    fit-fit: couverture; 
+}
+
+#camera-view, #camera-sensor, #camera-output { 
+    transform: scaleX (-1); 
+    filtre: FlipH; 
+}
+
+#camera-trigger { 
+    largeur: 200px; 
+    couleur de fond: noir; 
+    Couleur blanche; 
+    taille de police: 16px; 
+    rayon de bordure: 30 pixels; 
+    frontière: aucune; 
+    rembourrage: 15px 20px; 
+    alignement du texte: centre; 
+    shadow-box: 0 5px 10px 0 rgba (0,0,0,0,2); 
+    position: fixe; 
+    en bas: 30 px; 
+    gauche: calc (50% - 100px); 
+}
+
+.taken { 
+    hauteur: 100px! important; 
+    largeur: 100 px! important; 
+    transition: tous les 0,5 s avec facilité; 
+    bordure: solide 3px blanc; 
+    shadow-box: 0 5px 10px 0 rgba (0,0,0,0,2); 
+    haut: 20 pixels; 
+    droite: 20 pixels; 
+    indice z: 2; 
+}

@@ -1,0 +1,41 @@
+<! doctype html> 
+<html lang = ”en”> 
+<head> 
+<meta charset = "utf-8"> 
+<meta http-equiv = "x-ua-compatible" content = "ie = edge"> 
+<meta name = "viewport" content = "width = largeur de l'appareil, échelle initiale = 1"> 
+<!-- Nom de votre application appareil photo génial --> 
+<title> Application appareil photo </title> 
+<!-- Lien vers votre principal feuille de style --> 
+<link rel = "stylesheet" href = "style.css"> 
+</head> 
+<body> 
+<!-- Référence à votre fichier JavaScript --> 
+<script src = "app.js"> </script> 
+
+<!-- Appareil photo --> 
+<main id = "camera"> 
+
+
+  <!-- Vue caméra -->  
+    <video id = "camera-vue"> <!--lecture automatique en ligne-->  </video> 
+    
+    <!-- Capteur caméra --> 
+  <!-- Camera sensor -->  
+    <canvas id = "camera-sensor"> </canvas> 
+
+
+    <!-- Vue de la caméra --> 
+    <video id = "camera-view"  playsinline> <!-- lecture automatique--> </video> 
+
+<!-- Sortie caméra --> 
+    <img src = "//: 0" alt = "" id = "camera-sortie"> 
+
+    <!--  Déclenchement de l'appareil photo -->  
+    <button id = "camera-trigger"> Prendre une photo </button> 
+
+
+</main>
+
+</body> 
+</html>
